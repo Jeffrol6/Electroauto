@@ -705,14 +705,6 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra de la imagen */
 }
 
-@media (max-width: 600px) {
-    #cart-window, #chat-box {
-        right: 10px; /* Se desplazan 10px hacia la izquierda del borde derecho */
-        width: 90%; /* Ocupan el 90% del ancho de la pantalla en dispositivos móviles */
-    }
-}     
-
-
 /* Estilos globales */
 @media (max-width: 600px) {
     body {
@@ -796,3 +788,5 @@ footer {
         font-size: 14px;
     }
 }
+
+
