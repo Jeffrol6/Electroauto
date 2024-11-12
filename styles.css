@@ -724,7 +724,7 @@ footer {
 
     /* Encabezado fijo */
     header {
-        position: fixed;
+        position: absolute;
         top: 0;
         left: 0;
         width: 100%;
@@ -785,6 +785,14 @@ footer {
         padding: 15px;
         gap: 15px;
     }
+
+    /* Ajustes para dispositivos móviles */
+@media (max-width: 600px) {
+    .category-products {
+        grid-template-columns: 1fr; /* Cambiar a una sola columna */
+        padding: 20px; /* Reducir el padding para pantallas pequeñas */
+    }
+}
 
     .product {
         display: flex;
