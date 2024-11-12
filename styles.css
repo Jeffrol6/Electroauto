@@ -710,4 +710,89 @@ footer {
         right: 10px; /* Se desplazan 10px hacia la izquierda del borde derecho */
         width: 90%; /* Ocupan el 90% del ancho de la pantalla en dispositivos móviles */
     }
-}      
+}     
+
+
+/* Estilos globales */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px; /* Reducir tamaño de fuente en pantallas pequeñas */
+    }
+
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .logo {
+        height: 80px; /* Reducir el tamaño del logo */
+    }
+
+    .header-buttons a {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .banner .slider {
+        flex-direction: column;
+    }
+
+    /* Ajustar carrusel de productos */
+    .product-carousel {
+        padding: 20px;
+    }
+
+    .product-list {
+        flex-direction: column;
+        gap: 10px;
+        overflow-x: unset; /* Desactivar el scroll horizontal */
+    }
+
+    .product {
+        width: 100%; /* Hacer los productos de ancho completo */
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .categories {
+        padding: 20px;
+    }
+
+    .category-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Ajustar el carrito de compras */
+    #cart-window {
+        width: 90%; /* Hacer el carrito más pequeño en pantallas pequeñas */
+        top: 50px;
+    }
+
+    /* Ajustes del chat flotante */
+    #chat-icon {
+        font-size: 30px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    #chat-box {
+        width: 100%;
+        bottom: 60px;
+    }
+
+    /* Ajustar productos y botones */
+    .category button,
+    .buy-now,
+    #checkout-button,
+    #clear-cart {
+        width: 100%;
+        padding: 12px;
+    }
+
+    /* Mejorar el pie de página */
+    footer {
+        padding: 15px;
+        font-size: 14px;
+    }
+}
