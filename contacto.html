@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Palacio del Celular</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Logo" class="logo">
+    <nav class="header-buttons">
+        <a href="index.html">Inicio</a>
+        <a href="contacto.html">Contáctanos</a>
+        <a href="quienessomos.html">Quiénes Somos</a>
+    </nav>
+</header>
+    
+<section class="contact-section" id="contact">
+    <h2>Contáctanos</h2>
+    <form class="contact-form" action="#" method="POST">
+        <div class="form-group">
+            <label for="name">Nombres:</label>
+            <input type="text" id="name" name="name" placeholder="Escribe tus nombres" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" placeholder="Escribe tu correo" required>
+        </div>
+        <div class="form-group">
+            <label for="comment">Comentario:</label>
+            <textarea id="comment" name="comment" rows="5" placeholder="Escribe tu comentario" required></textarea>
+        </div>
+        
+        <button type="submit" class="submit-btn">Enviar</button>
+    </form>
+</section>
+
+<!-- Sección de Redes Sociales -->
+<div class="social-media-section">
+    <h2>Síguenos en nuestras redes</h2>
+       
+    <div class="social-media">
+        <a href="https://www.facebook.com" target="_blank"><img src="face.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+    </div>
+    <p>
+        ¡Gracias por visitar nuestra página! Esperamos que disfrutes de nuestra experiencia.
+    </p>
+    <p>+593 987 386 277</p>
+</div>
+
+<section class="map-section">
+    <h2>Nuestra Ubicación</h2>
+    <p>Av. Turubamba y Carlos Ribura, a pocos pasos de la fábrica de Confiteca</p>
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.2009180490275!2d-78.53630097077406!3d-0.2913077993032297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d598e53e4beea7%3A0x650a2c9f92b2b4d2!2sAv.%20Turubamba%20%26%20Carlos%20Ribera%2C%20Quito!5e0!3m2!1ses-419!2sec!4v1699965600000!5m2!1ses-419!2sec&markers=color:red%7Clabel:%7C-0.2913077993032297,-78.53630097077406"
+            width="1200" 
+            height="400" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy"></iframe>
+    </div>
+</section>
+
+
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+
+<footer>
+    <p>&copy; 2024 Electro Auto. Todos los derechos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

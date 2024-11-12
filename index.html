@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electro Auto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Logo" class="logo">
+    <nav class="header-buttons">
+        <a href="#productList">Productos</a>
+        <a href="#category-container">Categoría</a>
+        <a href="contacto.html">Contáctanos</a>
+        <a href="quienessomos.html">Quiénes Somos</a>
+        <button id="open-cart" class="open-cart-btn">🛒</button>
+    </nav>
+</header>
+
+<div class="banner">
+    <div class="slider">
+        <img src="6.png" alt="Banner 1">
+        <img src="5.png" alt="Banner 2">
+        <img src="7.png" alt="Banner 3">
+    </div>
+</div>
+
+<section class="products">
+    <section class="products">
+        <h2>  Productos Destacados </h2>
+        <div class="product-carousel">
+            <button class="arrow" id="prevBtn">&#10094;</button>
+            <div class="product-list" id="productList">
+                <!-- 10 productos destacados -->
+                <div class="product">
+                    <img src="3000.png" alt="producto 1">
+                    <h3>Inversor 3000w amarillo</h3>
+                    <p class="price">$169.99</p>
+                    <button class="buy-now" data-name="producto 1" data-price="$169.99" data-image="3000.png">Comprar Ahora</button>
+                </div>
+                <div class="product">
+                    <img src="30000.png" alt="producto 2">
+                    <h3>Inversor 3000w negro"</h3>
+                    <p class="price">$179.99</p>
+                    <button class="buy-now" data-name="producto 2" data-price="$179.99" data-image="30000.png">Comprar Ahora</button>
+                </div>
+                <div class="product">
+                    <img src="4000.png" alt="producto 3">
+                    <h3>Inversor 4000w con pantalla LCD</h3>
+                    <p class="price">$259.99</p>
+                    <button class="buy-now" data-name="producto 3" data-price="$259.99" data-image="4000.png">Comprar Ahora</button>
+                </div>
+                <div class="product">
+                    <img src="40000.png" alt="producto 4">
+                    <h3>Inversor 4000w con pantalla LCD</h3>
+                    <p class="price">$259.99</p>
+                    <button class="buy-now" data-name="producto 4" data-price="$259.99" data-image="40000.png">Comprar Ahora</button>
+                </div>
+            </div>  
+            <button class="arrow" id="nextBtn">&#10095;</button>
+        </div>
+    </section>
+    
+</section>
+
+<section class="categories">
+    <h2>Categorías</h2>
+    <div class="category-container" id="category-container">
+        <div class="category">
+            <img src="inversores.png" alt="Inversores" id="Inversores">
+            <button>Inversores</button>
+        </div>
+        <div class="category">
+            <img src="controladores.png" alt="Controladores" id="Contoladores">
+            <button>Controladores</button>
+        </div>
+        <div class="category">
+            <img src="otros.png" alt="Otros" id="Otros">
+            <button>Otros</button>
+        </div>
+    </div>
+</section>
+
+<section class="category-products" id="category-products">
+    <!-- Aquí se mostrarán los productos por categoría -->
+</section>
+
+  <!-- Ventana del carrito de compras -->
+  <div id="cart-window">
+    <h3>Carrito de Compras</h3>
+    <div id="cart-content"></div>
+    <div id="total-price"></div>
+    <button id="checkout-button">Finalizar Compra</button> 
+    <button id="close-cart">Cerrar</button>
+    
+</div>
+
+<!-- PDF Export -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<!-- Chat Flotante -->
+<div id="chat-icon">💬</div>
+<div id="chat-box">
+    <h3>Chat con nosotros</h3>
+    <textarea id="user-input" placeholder="Escribe tu mensaje aquí..."></textarea>
+    <button class="chat-send-btn">Enviar</button>
+</div>
+
+
+<footer>
+    <p>&copy; 2024 Electro Auto. Todos los derechos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
