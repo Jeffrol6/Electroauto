@@ -795,6 +795,7 @@ footer {
 }
 
     .product {
+          color: #333; 
         display: flex;
         flex-direction: column;  /* Cambiar a formato vertical */
         align-items: center;
@@ -817,12 +818,14 @@ footer {
     }
 
     .product-name {
+        color: #333;
         font-size: 16px;
         font-weight: bold;
         margin: 10px 0;
     }
 
     .product-price {
+        color: #333;
         font-size: 14px;
         color: #333;
         margin: 10px 0;
