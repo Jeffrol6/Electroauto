@@ -75,8 +75,8 @@ const allProducts = {
     'Inversores': [
         { name: 'Inversor 3000w amarillo', image: '3000.png', price: '$169,99' },
         { name: 'Inversor 3000w negro', image: '30000.png', price: '$179,99' },
-        { name: 'Inversor 4000w con pantalla LCD', image: '40000.png', price: '$269,99' },
-        { name: 'Inversor 4000w con pantalla LCD' , image: '4000.png', price: '$279,99' },
+        { name: 'Inversor 4000w con pantalla LCD', image: '40000.png', price: '$279,99' },
+        { name: 'Inversor 4000w con pantalla LCD' , image: '4000.png', price: '$269,99' },
     ],
     'Otros': [
         { name: 'Panel solar 300w', image: 'panel.png', price: '$99,99' },
