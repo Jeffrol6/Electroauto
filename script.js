@@ -223,7 +223,7 @@ async function finalizePurchase() {
 
     orderDetails += `\nTotal de la compra: $${total.toFixed(2)}`;
 
-    const whatsappNumber = '5930987386277'; // Número de WhatsApp para recibir la orden
+    const whatsappNumber = '5930980053983'; // Número de WhatsApp para recibir la orden
     const message = `Aquí está tu orden de compra:\n${orderDetails}`;
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     
